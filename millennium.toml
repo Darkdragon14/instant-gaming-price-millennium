@@ -1,0 +1,32 @@
+[plugin]
+id = "com.darkdragon14.instant-gaming-price"
+name = "Instant Gaming Price"
+version = "1.3.0"
+author = "Darkdragon14"
+description = "Shows Instant Gaming offers on Steam game pages and in the wishlist."
+
+[frontend]
+entry = "frontend/index.tsx"
+
+[webkit]
+entry = "webview/preload.ts"
+
+[compiler]
+output_path = "auto"
+
+[dev]
+auto_restart = true
+reload_steamui_when = "both"
+
+[inspect]
+depth = 4
+colors = true
+show_hidden = true
+
+[logger]
+padding = 0
+frontend_prefix = "IGP FRT"
+webview_prefix = "IGP WEB"
+
+[patches]
+debug = false

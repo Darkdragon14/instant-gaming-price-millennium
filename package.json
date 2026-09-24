@@ -1,0 +1,26 @@
+{
+  "name": "instant-gaming-price-millennium",
+  "private": true,
+  "version": "1.3.0",
+  "description": "Millennium plugin that shows Instant Gaming offers in the Steam store.",
+  "license": "MIT",
+  "author": "Darkdragon14",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Darkdragon14/instant-gaming-price-millennium.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "build": "starlight pack",
+    "dev": "starlight watch",
+    "prepare": "starlight lsp"
+  },
+  "devDependencies": {
+    "@steambrew/starlight": "^1.1.3",
+    "@types/react": "19.1.1",
+    "@types/react-dom": "19.1.1"
+  }
+}

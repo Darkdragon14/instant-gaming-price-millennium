@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2020",
+    "jsx": "react-jsx",
+    "declaration": false,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "typeRoots": [
+      ".millennium/types",
+      "node_modules/@types"
+    ],
+    "paths": {
+      "millennium": [
+        ".millennium/lsp/ts"
+      ]
+    }
+  },
+  "include": [
+    "frontend/**/*.tsx",
+    "webview/**/*.ts",
+    ".millennium/**/*.d.ts"
+  ]
+}

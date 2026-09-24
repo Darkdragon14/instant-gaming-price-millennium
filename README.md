@@ -4,7 +4,7 @@ Instant Gaming Price is an open-source [Millennium](https://steambrew.app/) plug
 
 Current version: **1.3.0**.
 
-![Instant Gaming offer displayed in the Steam wishlist](docs/screenshots/wishlist.png)
+![Instant Gaming offer displayed on a Steam game page](docs/screenshots/store-page.png)
 
 ## Features
 

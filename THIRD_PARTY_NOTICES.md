@@ -4,12 +4,16 @@
 
 The Instant Gaming name and logo are trademarks of their respective owner.
 The horizontal wordmark embedded in `webview/logo.ts` was sourced from the
-public Instant Gaming browser extension and is used solely to identify the
-destination service inside this interoperability plugin.
+[official Instant Gaming Firefox extension](https://addons.mozilla.org/firefox/addon/instant-gaming/),
+which Mozilla Add-ons identifies as licensed under the Mozilla Public License
+2.0. That file is redistributed under MPL-2.0; a copy of the license is
+included at `LICENSES/MPL-2.0.txt`, and its preferred source form is available
+in this repository.
 
-The trademark asset is not covered by this project's MIT License. This project
-is independent and is not affiliated with, endorsed by or sponsored by Instant
-Gaming.
+The MPL does not grant trademark rights. The wordmark is used solely to identify
+the destination service inside this interoperability plugin. It is not covered
+by this project's MIT License. This project is independent and is not
+affiliated with, endorsed by or sponsored by Instant Gaming.
 
 ## Runtime service
 

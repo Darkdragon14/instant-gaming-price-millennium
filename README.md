@@ -48,4 +48,7 @@ This is an independent community project. It is not affiliated with, endorsed by
 
 ## License
 
-The source code is released under the [MIT License](LICENSE). The Instant Gaming trademark asset is excluded from that license.
+Except for `webview/logo.ts`, the source code is released under the [MIT License](LICENSE).
+The embedded Instant Gaming wordmark file is redistributed under the
+[Mozilla Public License 2.0](LICENSES/MPL-2.0.txt); trademark rights are not
+granted. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

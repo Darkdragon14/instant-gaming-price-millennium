@@ -3,7 +3,7 @@
 ## Instant Gaming trademark
 
 The Instant Gaming name and logo are trademarks of their respective owner.
-The horizontal wordmark embedded in `webview/logo.ts` was sourced from the
+The horizontal wordmark embedded in `webkit/logo.ts` was sourced from the
 [official Instant Gaming Firefox extension](https://addons.mozilla.org/firefox/addon/instant-gaming/),
 which Mozilla Add-ons identifies as licensed under the Mozilla Public License
 2.0. That file is redistributed under MPL-2.0; a copy of the license is

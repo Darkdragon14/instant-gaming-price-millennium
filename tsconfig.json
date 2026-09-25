@@ -12,19 +12,11 @@
     "noImplicitAny": true,
     "skipLibCheck": true,
     "baseUrl": ".",
-    "typeRoots": [
-      ".millennium/types",
-      "node_modules/@types"
-    ],
-    "paths": {
-      "millennium": [
-        ".millennium/lsp/ts"
-      ]
-    }
+    "typeRoots": ["node_modules/@types"]
   },
   "include": [
     "frontend/**/*.tsx",
-    "webview/**/*.ts",
-    ".millennium/**/*.d.ts"
+    "webkit/**/*.ts",
+    "webkit/**/*.tsx"
   ]
 }

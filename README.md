@@ -26,7 +26,7 @@ pnpm install --frozen-lockfile
 pnpm run build
 ```
 
-The Starlight compiler automatically detects the local Millennium installation and creates the plugin package. Millennium 3.4 or newer is recommended.
+The build produces `index.js` and `webkit.js` in `.millennium/Dist`, which the Millennium Plugin Database packages together with `plugin.json`. Millennium 3.4 or newer is recommended.
 
 ## How it works
 
@@ -48,7 +48,7 @@ This is an independent community project. It is not affiliated with, endorsed by
 
 ## License
 
-Except for `webview/logo.ts`, the source code is released under the [MIT License](LICENSE).
+Except for `webkit/logo.ts`, the source code is released under the [MIT License](LICENSE).
 The embedded Instant Gaming wordmark file is redistributed under the
 [Mozilla Public License 2.0](LICENSES/MPL-2.0.txt); trademark rights are not
 granted. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

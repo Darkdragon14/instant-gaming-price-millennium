@@ -1,4 +1,4 @@
-import { definePlugin, Field } from 'millennium';
+import { definePlugin, Field } from '@steambrew/client';
 
 const Icon = () => (
   <div

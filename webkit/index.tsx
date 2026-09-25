@@ -373,7 +373,7 @@ async function updateOffer(): Promise<void> {
 
 function scheduleUpdate(): void {
   window.clearTimeout(routeTimer);
-  routeTimer = window.setTimeout(() => void updateOffer(), 120);
+  routeTimer = window.setTimeout((): void => { void updateOffer(); }, 120);
 }
 
 export default async function main(): Promise<void> {
